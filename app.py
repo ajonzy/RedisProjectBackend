@@ -7,7 +7,7 @@ import random
 import string
 
 app = Flask(__name__)
-app.config["REDIS_URL"] = "redis://:p575d3c88a43bc080d6163c0852f694e439760ddf38555f6d30ccb64b9fe671a5@ec2-3-210-18-223.compute-1.amazonaws.com:21700/0"
+app.config["REDIS_URL"] = "redis://:p575d3c88a43bc080d6163c0852f694e439760ddf38555f6d30ccb64b9fe671a5@ec2-3-210-18-223.compute-1.amazonaws.com:21699"
 
 CORS(app)
 heroku = Heroku(app)
